@@ -1,0 +1,6 @@
+.vscode
+*checkpoint*
+*.pyc
+*.DS_Store
+graph.*
+*.pkl
