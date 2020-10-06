@@ -1,5 +1,5 @@
 # Graph2Tree
-*Code & data for the EMNLP2020 FINDINGS paper "Graph-to-Tree Neural Networksfor Learning Structured Input-Output Translationwith Applications to Semantic Parsing and Math Word Problem".*
+*Code & data for the EMNLP2020 FINDINGS paper "Graph-to-Tree Neural Networks for Learning Structured Input-Output Translation with Applications to Semantic Parsing and Math Word Problem".*
 
 Graph2Tree aims to automatically learn the mapping between structured input like graphs and output like trees. 
 
