@@ -1,4 +1,6 @@
 # Graph2Tree
+*Code & data for the EMNLP2020 FINDINGS paper "Graph-to-Tree Neural Networksfor Learning Structured Input-Output Translationwith Applications to Semantic Parsing and Math Word Problem".*
+
 Graph2Tree aims to automatically learn the mapping between structured input like graphs and output like trees. 
 
 This model can effectively solve two problems: Semantic Parsing  (SP) and Math Word Problem automatically solving (MWP). Actually, they both deal with the translation problem from original word sequence inputs (which can be augmented to be a syntactic graph) to tree outputs (the logic forms in SP and mathmatical expression in MWP are both hierarchical). 
@@ -58,3 +60,16 @@ Our graph data are organized in a dictionary form where meaning of different key
 * Gcc version: 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10)  
 * GPU: TITAN Xp
 * CUDA: 8.0 
+
+## Reference
+
+If you found this repo useful, please consider citing our paper:
+
+Li, Shucheng and Wu, Lingfei and Feng, Shiwei and Xu, Fangli and Xu, Fengyuan and Zhong, Sheng. **"Graph-to-Tree Neural Networks for Learning Structured Input-Output Translation with Applications to Semantic Parsing and Math Word Problem."** In *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing.*
+
+	@article{li2020graph,
+	  title={Graph-to-Tree Neural Networks for Learning Structured Input-Output Translation with Applications to Semantic Parsing and Math Word Problem},
+	  author={Li, Shucheng and Wu, Lingfei and Feng, Shiwei and Xu, Fangli and Xu, Fengyuan and Zhong, Sheng},
+	  journal={EMNLP},
+	  year={2020}
+	}
